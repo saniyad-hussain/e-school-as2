@@ -6,6 +6,7 @@
     <title>E-School Website</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -41,7 +42,7 @@
                     <h5>Are you ready to Learn?</h5>
                     <h2>Learn With fun<br>on <span>any schedule</span></h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Varius blandit facilisis quam netus.</p>
-                    <button>Get Started</button>
+                    <button class="get-start-btn">Get Started</button>
                 </div>
                 <div class="col-md-6">
                     <img class="img-fluid" src="resources/Photos/Illustration.png" alt="">
@@ -51,30 +52,147 @@
     </section>
 
     <!-- Speciality of school -->
-    <section class=" scl-details">
-        <div class="row d-flex justify-content-between">
-            <div class="col-md-3 d-flex flex-column align-items-center scl-special">
-                <img src="resources/ICON/book.png" alt="">
-                <h3>1500+ Topic</h3>
-                <p>Learn Anythings</p>
+    <section class="container scl-specs">
+        <div class="card-deck">
+            <div class="card scl d-flex flex-column align-items-center ">
+              <img src="resources/ICON/book.png" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column align-items-center">
+                <h5 class="card-title">1500+ Topic</h5>
+                <p class="card-text">Learn Anythings</p>
+              </div>
             </div>
-            <div class="col-md-3 d-flex flex-column align-items-center scl-special">
-                <img class="img-fluid" src="resources/ICON/Test.png" alt="">
-                <h3>1800+ Students</h3>
-                <p>Learn Anythings</p>
+            <div class="card d-flex flex-column align-items-center">
+              <img src="resources/ICON/Student.png" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column align-items-center">
+                <h5 class="card-title">1800+ Students</h5>
+                <p class="card-text">Learn Anythings</p>
+              </div>
             </div>
-            <div class="col-md-3 d-flex flex-column align-items-center scl-special">
-                <img class="img-fluid" src="resources/ICON/Student.png" alt="">
-                <h3>9K+ Test Token</h3>
-                <p>Learn Anythings</p>
+            <div class="card d-flex flex-column align-items-center">
+              <img src="resources/ICON/Test.png" class="card-img-top" alt="...">
+              <div class="card-body d-flex flex-column align-items-center">
+                <h5 class="card-title">9K+ Test Token</h5>
+                <p class="card-text">Learn Anythings</p>
+              </div>
             </div>
-            <div class="col-md-3 d-flex flex-column align-items-center scl-special">
-                <img class="img-fluid" src="resources/ICON/Students.png" alt="">
-                <h3>2000+ Student</h3>
-                <p>Learn Anythings</p>
+            <div class="card d-flex flex-column align-items-center">
+                <img src="resources/ICON/Students.png" class="card-img-top" alt="...">
+                <div class="card-body d-flex flex-column align-items-center">
+                  <h5 class="card-title">2000+ Student</h5>
+                  <p class="card-text">Learn Anythings</p>
+                </div>
+              </div>
+          </div>
+    </section>
+
+    <!-- Online Courses -->
+
+    <section class="container online-course">
+        <h2 class="text-center title">Online Courses</h2>
+        <div class="card-deck">
+            <div class="card">
+              <img src="resources/Photos/Morder pyschology.png" class="card-img-top sub" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="get-start-btn">Buy Course</button>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <small class="text-muted"> <img class="icons" src="resources/ICON/calendar.png" alt=""> Start 20  April, 2021</small>
+                <small class="text-muted"><img class="icons" src="resources/ICON/people.png" alt=""> 60 seats</small>
+              </div>
+            </div>
+            <div class="card">
+              <img src="resources/Photos/Morder pychons.png" class="card-img-top sub" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="get-start-btn">Buy Course</button>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <small class="text-muted"> <img class="icons" src="resources/ICON/calendar.png" alt=""> Start 20  April, 2021</small>
+                <small class="text-muted"><img class="icons" src="resources/ICON/people.png" alt=""> 60 seats</small>
+              </div>
+            </div>
+            <div class="card ">
+              <img src="resources/Photos/Morder psyc.png" class="card-img-top sub" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Modern Psychology</h5>
+                <p class="card-text">Designation</p>
+                <button class="get-start-btn">Buy Course</button>
+              </div>
+              <div class="card-footer d-flex justify-content-between">
+                <small class="text-muted"> <img class="icons" src="resources/ICON/calendar.png" alt=""> Start 20  April, 2021</small>
+                <small class="text-muted"><img class="icons" src="resources/ICON/people.png" alt=""> 60 seats</small>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <!-- Testimoinals -->
+
+    <section class="container">
+        <h2 class="text-center title">Testimonial</h2>
+        <div class="row">
+            <div class="col-md-3 d-flex justify-content-center justify-content-sm-end">
+                <img class="reviewer" src="resources/Photos/Man.png" alt="">
+            </div>
+            <div class="col-md-9 d-flex align-items-center">
+                <p>There are many variations of passages of Lorem Ipsum available, but the
+                    majority have suffered alteration in some form, by injected humour, 
+                   or randomised words which don't look even slightly believable.</p>
             </div>
         </div>
     </section>
+
+    <!-- Footer area -->
+    <section class="footer-area">
+        <div class="container">
+            <div class="row ">
+                <div class="col-md-3">
+                    <a class="navbar-brand footer-logo" href="#">
+                        <img src="resources/ICON/Logo.png" alt="">
+                    </a>
+                    <p>Millions of people of all ages and from around
+                        the world are improving their lives with us
+                    </p>
+                </div>
+                <div class="col-md-3 col-sm-4">
+                    <ul>
+                        <h5 class="footer-title">Courses</h5>
+                        <li> <a href="#">Graphic Design</a> </li>
+                        <li> <a href="#">Web Design</a> </li>
+                        <li> <a href="#">Business</a> </li>
+                        <li> <a href="#">Marketing</a> </li>
+                        <li> <a href="#">Engineering</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-4">
+                    <ul>
+                        <h5 class="footer-title">Terms</h5>
+                        <li> <a href="#">Graphic Design</a> </li>
+                        <li> <a href="#">Web Design</a> </li>
+                        <li> <a href="#">Business</a> </li>
+                        <li> <a href="#">Marketing</a> </li>
+                        <li> <a href="#">Engineering</a> </li>
+                    </ul>
+                </div>
+                <div class="col-md-3 col-sm-4">
+                    <ul>
+                        <h5 class="footer-title">Useful Link</h5>
+                        <li> <a href="#">Graphic Design</a> </li>
+                        <li> <a href="#">Web Design</a> </li>
+                        <li> <a href="#">Business</a> </li>
+                        <li> <a href="#">Marketing</a> </li>
+                        <li> <a href="#">Engineering</a> </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="copyright text-center"> <p>Copyright © 2020 Rokomari.com</p></div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
